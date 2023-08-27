@@ -1,0 +1,36 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 200px;
+}
+#u{
+    color: chocolate;
+}
+nav > ul {
+    display: flex;
+}
+nav ul li > a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+nav ul > li {
+    list-style: none;
+}
+#btnH{
+    background-color: chocolate;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: -10px;
+    border: none;
+    border-radius: 5px;
+}
+nav button > a {
+    text-decoration: none;
+    color: black;
+}
