@@ -5,13 +5,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 200px;
+    margin: 0 200px;
 }
 #u{
     color: chocolate;
 }
 nav > ul {
     display: flex;
+    margin-top: 40px;
 }
 nav ul li > a {
     text-decoration: none;
@@ -23,14 +24,48 @@ nav ul > li {
 }
 #btnH{
     background-color: chocolate;
+    color: white;
     font-weight: 800;
     padding: 10px 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: -10px;
+    border: none;
+    border-radius: 5px;
+}
+#btnC{
+    background-color: rgb(247, 169, 114);
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin-left: 25px;
     border: none;
     border-radius: 5px;
 }
 nav button > a {
     text-decoration: none;
     color: black;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+    background-image: url('header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    
+}
+.banner > div {
+    max-width: 50%;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: -45px;
+}
+.banner-title{
+    margin-bottom: 5px;
+    font-size: 85px;
+    font-weight: 700;
 }
